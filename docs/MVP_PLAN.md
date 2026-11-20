@@ -2,21 +2,23 @@
 
 ## Productdoel
 
-BHV Buddy ondersteunt echte cursisten met een Nederlandstalige, interactieve digitale cursus **Brand & Ontruiming** van ongeveer twee uur. Na afronding volgt een afzonderlijke praktische les waarin cursisten onder begeleiding van een bevoegde instructeur de praktische handelingen daadwerkelijk uitvoeren.
+BHV Buddy ondersteunt echte cursisten met een Nederlandstalige, interactieve **basiscursus BHV Brand & Ontruiming** van ongeveer twee uur. De digitale cursus leert de algemene basisprincipes van brandveiligheid, eerste reactie bij brand en ontruiming.
 
-De digitale cursus is voorbereiding en leerondersteuning. De app verklaart een cursist niet zelfstandig praktisch bekwaam en verleent geen certificaat of bevoegdheid. Praktische beoordeling en eventuele certificering vallen buiten de AI-beoordeling en worden door de verantwoordelijke opleider/instructeur uitgevoerd.
+De cursus is zelfstandig opgezet en hoeft niet aan te sluiten op een specifieke praktische les, opdrachtenreeks of lokaal cursusprogramma. Een organisatie kan haar eigen praktische training daarnaast aanbieden, maar die is geen onderdeel van dit MVP en wordt niet inhoudelijk aan de digitale cursus gekoppeld.
+
+De app maakt geen aanspraak op het vervangen van vereiste praktijktraining, praktijkbeoordeling of een erkende certificering. De precieze positie van de cursus als opleiding of aanvulling moet vóór inzet met de opleider en relevante opleidingsstandaard worden vastgesteld.
 
 ## Doelgroep en rollen
 
 - **Cursist:** volgt de digitale les, oefent scenario’s en maakt de kennistoets.
-- **Instructeur:** beheert de lesgroep, bekijkt voortgang en bespreekt resultaten; beoordeelt de praktische les zelf.
-- **Beheerder/contentbeheerder:** beheert cursusversies, bronnen, vertalingen en goedkeuringsstatus.
+- **Instructeur:** bekijkt de voortgang en resultaten van cursisten.
+- **Beheerder/contentbeheerder:** beheert lesinhoud, bronnen, vertalingen en goedkeuringsstatus.
 
 ## Leerervaring
 
-De cursus bestaat uit interactieve uitleg, korte kennischecks, situaties om over na te denken en een afsluitende kennistoets. De AI-instructeur gebruikt alleen door de inhoudsverantwoordelijke goedgekeurde cursusinformatie. Antwoorden buiten de goedgekeurde inhoud worden als zodanig gemarkeerd en niet ingevuld op basis van giswerk.
+De cursus bestaat uit interactieve uitleg, korte kennischecks, algemene situaties om over na te denken en een afsluitende kennistoets. De AI-instructeur gebruikt alleen door de inhoudsverantwoordelijke goedgekeurde cursusinformatie. Antwoorden buiten de goedgekeurde inhoud worden als zodanig gemarkeerd en niet ingevuld op basis van giswerk.
 
-### Voorlopige opbouw van de digitale les (120 minuten)
+### Voorlopige opbouw van de digitale basiscursus (120 minuten)
 
 | Onderdeel | Richttijd |
 | --- | ---: |
@@ -24,38 +26,32 @@ De cursus bestaat uit interactieve uitleg, korte kennischecks, situaties om over
 | Brandveiligheid, brandrisico’s en preventie | 15 min |
 | Brand herkennen, alarm slaan en melden | 15 min |
 | Eigen veiligheid en eerste besluitvorming | 15 min |
-| Blusmiddelen: keuze, toepassingsgrenzen en theorie | 20 min |
-| Ontruimingsplan, routes, taken en communicatie | 20 min |
-| Scenario-oefeningen en klassikale/AI-nabespreking | 20 min |
+| Blusmiddelen: algemene keuze, toepassingsgrenzen en theorie | 20 min |
+| Ontruiming: algemene principes, vluchtroutes, rollen en communicatie | 20 min |
+| Algemene scenario-oefeningen en nabespreking | 20 min |
 | Kennistoets en persoonlijke terugkoppeling | 10 min |
 | **Totaal** | **120 min** |
 
-Dit is een eerste planningsverdeling. De inhoud, volgorde en tijdsduur worden afgestemd op de toepasselijke opleidingsdoelen en goedgekeurd door de inhoudsdeskundige. De cursus kan pauzemomenten bevatten; de gerapporteerde leertijd moet daarom van verstreken tijd te onderscheiden zijn.
+Dit is een eerste planningsverdeling. De inhoud, volgorde en tijdsduur worden afgestemd op de toepasselijke opleidingsdoelen en goedgekeurd door een inhoudsdeskundige. De cursus kan pauzemomenten bevatten; de gerapporteerde leertijd moet daarom van verstreken tijd te onderscheiden zijn.
 
-## Aparte praktische les
+De cursus behandelt algemene uitgangspunten. Locatiegebonden zaken, zoals interne alarmnummers, specifieke vluchtroutes, taken en verzamelplaatsen, moeten door organisaties apart worden vastgesteld en mogen niet als universele instructies worden gepresenteerd.
 
-Na de digitale cursus wordt een praktische les gepland. Daarin voert iedere cursist de praktische handelingen zelf uit onder toezicht van een instructeur, met passende oefenmiddelen en volgens de lokale procedures en veiligheidsafspraken.
+## Afbakening praktische training
 
-De app kan de praktische les ondersteunen met:
+Praktische lessen en opdrachten vallen buiten het MVP. De digitale cursus hoeft niet de volgorde, opdrachten of beoordelingscriteria van een specifieke praktijkles te volgen. Er is in deze MVP geen registratie, checklist of AI-beoordeling voor praktische handelingen.
 
-- een instructeurschecklist die door de opleider wordt opgesteld en goedgekeurd;
-- registratie dat de praktijkles gepland of bijgewoond is;
-- registratie van de beoordeling door de instructeur, met beoordelaar en datum;
-- terugkoppeling naar relevante digitale lesonderdelen.
-
-De app laat de AI geen praktische handeling op afstand aftekenen en leidt deelname aan de digitale cursus niet automatisch af als bewijs van praktische bekwaamheid.
+De cursus maakt wel duidelijk dat digitale kennisopbouw op zichzelf geen bewijs is dat iemand praktische handelingen heeft uitgevoerd of praktisch bekwaam is. Organisaties en opleiders bepalen zelf welke praktische training of beoordeling aanvullend nodig is.
 
 ## Eerste MVP-functionaliteit
 
 1. Nederlandstalige cursusweergave en toegankelijk lesoverzicht.
 2. Lesblokken met tekst, afbeeldingen/video-verwijzingen, bronnen en kennischecks.
 3. AI-instructeur met context uit uitsluitend goedgekeurde cursusinhoud.
-4. Scenario-oefeningen met vooraf vastgestelde beoordelingscriteria en feedback.
+4. Algemene scenario-oefeningen met vooraf vastgestelde beoordelingscriteria en feedback.
 5. Kennistoets met score, uitleg en verwijzing naar relevante lesstof.
 6. Opslaan van cursusversie, voortgang en toetsresultaat.
 7. Instructeursweergave voor cursisten, voortgang en resultaten.
-8. Status van de afzonderlijke praktische les, met beoordeling die door een instructeur wordt ingevoerd.
-9. Beheer van goedkeuringsstatus en versies van lesinhoud.
+8. Beheer van goedkeuringsstatus en versies van lesinhoud.
 
 ## Taaluitbreiding
 
@@ -70,31 +66,32 @@ De app laat de AI geen praktische handeling op afstand aftekenen en leidt deelna
 
 - Laat leerdoelen, lesmateriaal, scenario’s en toetsvragen vóór gebruik goedkeuren door de inhoudsverantwoordelijke/BHV-deskundige.
 - Leg per inhoudsversie bronnen, eigenaar, beoordelaar en datum van laatste controle vast.
-- Houd rekening met verschillen tussen organisaties: instructies en verzamelplaatsen mogen niet als universeel worden aangenomen.
+- Houd rekening met verschillen tussen organisaties: interne instructies, alarmprocedures, routes en verzamelplaatsen zijn lokaal configureerbaar en worden niet als universeel aangenomen.
 - Bij vragen buiten de lesinhoud verzint de AI geen procedure, maar verwijst naar de instructeur, het lokale bedrijfsnoodplan of de aangewezen noodprocedure.
 - Houd voortgangs- en AI-gegevens beperkt tot wat nodig is, met passende toegangsrechten en bewaartermijnen.
+- Maak duidelijk onderscheid tussen digitale kenniscontrole en praktische uitvoering/beoordeling.
 
 ## Acceptatiecriteria voor de eerste pilot
 
-- Een cursist kan de volledige Nederlandse digitale cursus volgen en tussentijds voortgang hervatten.
+- Een cursist kan de volledige Nederlandse digitale basiscursus volgen en tussentijds voortgang hervatten.
 - De geplande lesonderdelen tellen samen op tot circa 120 minuten leertijd.
+- De cursus behandelt de algemene basisprincipes van BHV Brand & Ontruiming en is niet afhankelijk van een specifieke praktische les.
 - De AI geeft antwoorden op basis van goedgekeurde inhoud en maakt onzekerheid of ontbrekende informatie duidelijk.
 - De scenario’s en kennistoets zijn door een inhoudsdeskundige beoordeeld.
 - Een instructeur kan voortgang en toetsresultaten zien.
-- De praktische les is afzonderlijk zichtbaar en kan uitsluitend door een instructeur worden geregistreerd/beoordeeld.
 - Cursusresultaten vermelden de gevolgde inhoudsversie en taal.
-- Er zijn geen claims dat de digitale cursus op zichzelf een praktijktoets of certificering vervangt.
+- De app presenteert voltooiing van de digitale cursus niet als bewijs van praktische uitvoering, praktische bekwaamheid of certificering.
 
 ## Voorgestelde bouwvolgorde
 
 1. Inhoudsmodel, Nederlandse taalinstelling en cursusstructuur.
 2. Cursistweergave, voortgang en eerste lesblokken.
-3. Scenario’s en kennistoets.
+3. Algemene scenario’s en kennistoets.
 4. AI-instructeur op basis van goedgekeurde cursusinhoud.
-5. Instructeursomgeving en registratie van de afzonderlijke praktijkles.
+5. Instructeursomgeving voor voortgang en resultaten.
 6. Pilot, inhoudelijke review, privacy- en beveiligingscontrole.
 7. Pas daarna vertaalworkflow en aanvullende talen.
 
 ## Open inhoudelijke input
 
-Voor de cursusproductie zijn nog nodig: de gewenste eindtermen/opleidingsstandaard, jouw lesmateriaal en voorbeelden van jouw lesstijl, eventuele bestaande lokale procedures, en de instructeurschecklist voor de praktische les. Gebruik geen organisatiegebonden noodinstructies als algemene standaard zonder ze als lokaal configureerbare inhoud te behandelen.
+Voor de cursusproductie zijn nog nodig: de gewenste eindtermen/opleidingsstandaard, jouw lesmateriaal en voorbeelden van jouw lesstijl, en de inhoudelijke bronnen die gebruikt mogen worden. Organisatiegebonden noodinstructies worden alleen toegevoegd als optionele, lokaal beheerde inhoud.
